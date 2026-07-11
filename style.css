@@ -1,0 +1,320 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: linear-gradient(to right, #add8c6, #e2e7e2);
+}
+
+a:link,a:visited,a:active{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+header{
+  background: linear-gradient(to top, rgb(10, 4, 4), rgb(84, 50, 16));
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  font-size: 1.2rem;
+  margin: 0 15%;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0;
+}
+
+
+main{
+  margin: 0 15%;
+  background-color: rgb(255, 255, 255);
+}
+
+.hero{
+  border: none;
+  background-image: url(./ChatGPT\ Image\ Jul\ 9\,\ 2026\,\ 11_34_22\ AM.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  height: 19rem;
+  column-count: 2;
+}
+
+.hero button{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: none;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 8rem;
+}
+
+.hero a:link, .hero a:visited, .hero a:active{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.hero a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero div{
+  padding: 3em 0 0 0.8em;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero-text p{
+  text-align: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  padding: 0 0 1rem 0;
+}
+
+.about button{
+  background-color: rgb(143, 86, 53);
+  color: black;
+  border: none;
+  border-radius: 0.1rem;
+  height: 2rem;
+  width: 6rem;
+}
+
+.about img{
+  height: 440px;
+  width: 300px;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.a-r{
+  font-size: large;
+}
+
+.a-r p{
+
+  padding: 0 1rem 0 0;
+}
+
+#author{
+  background: rgb(164, 126, 60);
+}
+
+.author{
+  color: white;
+}
+
+.author img{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.author{
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.order{
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 1em 0;
+}
+
+.order img{
+  height: 270px;
+  width: 190px;
+  padding: 1rem 1rem 0 10rem;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.order button{
+  margin: 1rem;
+  background-color: rgb(143, 86, 53);
+  color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 20rem;
+}
+
+footer{
+  background: rgb(150, 149, 149);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  gap: 0.2rem;
+  margin: 0 15%;
+  padding: 0.2em 0;
+}
+
+@media (max-width: 800px) {
+  header, main, footer{
+    margin: 0 3%;
+  }
+
+  .hero{
+    background: url(./34_22\ AM.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    height: 250px;
+  }
+
+  .hero div{
+    padding: 0 10%;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+  .about img{
+    height: 300px;
+    width: 200px;
+    padding: 50% 1em;
+  }
+
+  .author img{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+  }
+
+  .order{
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 1em 0;
+}
+
+.order img{
+  height: 270px;
+  width: 190px;
+  padding: 1rem 1rem 0 8rem;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.order button{
+  margin: 1rem;
+  background-color: rgb(143, 86, 53);
+  color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 0.3rem;
+  height: 2rem;
+  width: 15rem;
+}
+
+  
+}
+
+@media (max-width: 400px) {
+  header, main, footer{
+    margin: 0 0;
+  }
+  
+  header ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0;
+  }
+
+  .hero{
+    background: url(./11_34_22\ AM.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    height: 350px;
+  }
+
+  .hero div{
+    padding: 0 0.2em;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+  .about{
+    position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: contents;
+  }
+
+  .about div{
+    padding: 0.4em;
+  }
+
+  .about img{
+    padding: 0;
+  }
+
+  .order{
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 1em 0;
+}
+
+.order img{
+  height: 200px;
+  width: 140px;
+  padding: 1rem 1rem 0 1rem;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.order button{
+  margin: 1rem;
+  background-color: rgb(143, 86, 53);
+  color: rgb(255, 254, 254);
+  border: none;
+  border-radius: 0.3rem;
+  height: 2.5rem;
+  width: 9rem;
+}
+
+}
