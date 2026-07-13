@@ -159,6 +159,23 @@ main{
   padding: 1rem;
 }
 
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+span a:nth-child(1){
+  color: rgb(2, 18, 235);
+}
+span a:nth-child(2){
+  color: rgb(168, 12, 150);
+}
+span a:nth-child(3){
+  color: rgb(51, 212, 2);
+} 
+
 .order{
   position: relative;
   display: flex;
