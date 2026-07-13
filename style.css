@@ -55,9 +55,9 @@ main{
 
 .hero{
   border: none;
-  background-image: url(./ChatGPT\ Image\ Jul\ 9\,\ 2026\,\ 11_34_22\ AM.png);
+  background-image: url(./C\ hatGPT\ Image\ Jul\ 9\,\ 2026\,\ 11_34_22\ AM.png);
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left bottom;
   background-size: cover;
   display: flex;
   position: relative;
@@ -94,7 +94,7 @@ main{
 }
 
 .hero div{
-  padding: 3em 0 0 0.8em;
+  padding: 2em ;
   position: relative;
   align-items: center;
   text-align: center;
@@ -106,7 +106,7 @@ main{
   text-align: center;
   justify-content: center;
   margin: 8px;
-  padding: 4px 0;
+  padding: 4px 100px;
 }
 
 .about {
@@ -164,15 +164,16 @@ span{
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-span a:nth-child(1){
+span i:nth-child(1){
   color: rgb(2, 18, 235);
 }
-span a:nth-child(2){
+span i:nth-child(3){
   color: rgb(168, 12, 150);
 }
-span a:nth-child(3){
+span i:nth-child(5){
   color: rgb(51, 212, 2);
 } 
 
@@ -227,11 +228,16 @@ footer{
   }
 
   .hero div{
-    padding: 2% 15%;
+    padding: 3% 1% 0 1%;
   position: relative;
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+
+.hero p{
+  padding: 0 3%;
+  text-align: center;
 }
 
   .about img{
@@ -241,7 +247,7 @@ footer{
   }
 
   .about{
-    height: auto;
+    height: 30rem;
   }
 
   .author img{
@@ -307,11 +313,16 @@ footer{
   }
 
   .hero div{
-    padding: 0 0.2em;
+    padding: 5% 1% 0 1%;
   position: relative;
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+
+.hero p{
+  padding: 0;
+  text-align: justify;
 }
 
   .about{
@@ -326,9 +337,18 @@ footer{
     padding: 0.2em;
   }
 
+  .about p{
+    padding: 1% 3%;
+    text-align: justify;
+  }
+
   .about img{
     padding: 0;
     margin-top: 10px;
+  }
+
+  .author p{
+    text-align: justify;
   }
 
   .order{
