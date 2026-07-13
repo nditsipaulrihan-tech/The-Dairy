@@ -363,14 +363,14 @@ footer{
 .order img{
   height: 200px;
   width: 140px;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 20%;
   align-content: center;
   align-items: center;
   text-align: center;
 }
 
 .order button{
-  margin: 1rem 0.3rem;
+  margin: 1rem 35%;
   background-color: rgb(143, 86, 53);
   color: rgb(255, 254, 254);
   border: none;
