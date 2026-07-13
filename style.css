@@ -1,4 +1,5 @@
 *{
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +27,11 @@ header{
   gap: 0.2rem;
   font-size: 1.2rem;
   margin: 0 15%;
+  height: 40px;
+  position: relative;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 header ul{
@@ -34,6 +40,7 @@ header ul{
   flex-wrap: wrap;
   gap: 2rem;
   padding: 0;
+  font-size: 1em;
 }
 
 
@@ -68,6 +75,7 @@ main{
   border-radius: 0.3rem;
   height: 2rem;
   width: 8rem;
+  margin: 8px;
 }
 
 .hero a:link, .hero a:visited, .hero a:active{
@@ -87,11 +95,14 @@ main{
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .hero-text p{
   text-align: center;
   justify-content: center;
+  margin: 8px;
+  padding: 4px 0;
 }
 
 .about {
@@ -101,7 +112,7 @@ main{
 
 .about button{
   background-color: rgb(143, 86, 53);
-  color: black;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 0.1rem;
   height: 2rem;
@@ -109,18 +120,19 @@ main{
 }
 
 .about img{
-  height: 440px;
-  width: 300px;
+  height: 410px;
+  width: 290px;
   padding: 1rem 1rem 0 1rem;
 }
 
 .a-r{
   font-size: large;
+  margin: 2px;
+  margin-top: 1em;
 }
 
 .a-r p{
-
-  padding: 0 1rem 0 0;
+  padding: 1rem 0.2rem;
 }
 
 #author{
@@ -194,7 +206,7 @@ footer{
   }
 
   .hero div{
-    padding: 0 10%;
+    padding: 2% 15%;
   position: relative;
   align-items: center;
   text-align: center;
@@ -205,6 +217,10 @@ footer{
     height: 300px;
     width: 200px;
     padding: 50% 1em;
+  }
+
+  .about{
+    height: auto;
   }
 
   .author img{
@@ -282,11 +298,12 @@ footer{
   }
 
   .about div{
-    padding: 0.4em;
+    padding: 0.2em;
   }
 
   .about img{
     padding: 0;
+    margin-top: 10px;
   }
 
   .order{
@@ -308,7 +325,7 @@ footer{
 }
 
 .order button{
-  margin: 1rem;
+  margin: 1rem 0.3rem;
   background-color: rgb(143, 86, 53);
   color: rgb(255, 254, 254);
   border: none;
