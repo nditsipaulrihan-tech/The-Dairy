@@ -273,6 +273,10 @@ footer{
   padding: 0;
   }
 
+  header{
+    height: 50px;
+  }
+
   .hero{
     background: url(./11_34_22\ AM.png);
     background-repeat: no-repeat;
